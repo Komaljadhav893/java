@@ -1,0 +1,32 @@
+reverse number
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        System.out.println("printing number from 1 to 10");
+        int number=10;
+        while(number >=0){
+            System.out.println(number);
+            number--;
+        }
+
+    }
+}    
+
+
+
+
+reverse multiplication table
+   class Geeks {
+	 static void printTable (int n) 
+	 {
+            int multiplier=10;
+            while(multiplier>0)
+            {
+                //Your code here
+          System.out.print((n * multiplier) +  " ");
+               multiplier--;
+            }
+       System.out.println();
+	 }
+
+}
